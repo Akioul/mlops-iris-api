@@ -125,6 +125,12 @@ docker rm -f iris-api
 
 La collection exportée se trouve dans le dossier `postman/`. Importer le fichier dans Postman, lancer l'API (locale ou Docker), puis envoyer la requête **Predict Iris**.
 
+## Démo en ligne
+
+API déployée sur SnapDeploy : https://mlops-iris-api-fe956.containers.snapdeploy.app/docs
+
+(Offre gratuite : après environ 15 minutes sans visite, le conteneur s'endort et la première requête peut prendre environ une minute.)
+
 ## Technologies
 
 scikit-learn, FastAPI, Pydantic, Uvicorn, pytest, Docker, Postman.

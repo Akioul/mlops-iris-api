@@ -37,6 +37,36 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "Predict Iris (cloud)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"sepal_length\": 6.7,\r\n  \"sepal_width\": 3.0,\r\n  \"petal_length\": 5.2,\r\n  \"petal_width\": 2.3\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://mlops-iris-api-fe956.containers.snapdeploy.app/predict",
+          "protocol": "https",
+          "host": [
+            "mlops-iris-api-fe956",
+            "containers",
+            "snapdeploy",
+            "app"
+          ],
+          "path": [
+            "predict"
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }
